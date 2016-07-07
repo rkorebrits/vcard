@@ -718,7 +718,7 @@ class VCard
 
         // adding property
         $this->properties[] = array(
-            'key' => $key,
+            'key' => $key . ';CHARSET=utf-8',
             'value' => $value
         );
     }
